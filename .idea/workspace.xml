@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="0a40ffc2-ba1b-454e-ae97-07a0d3d36268" name="Default Changelist" comment="Default Changelist">
       <change beforePath="$PROJECT_DIR$/.idea/everadTeam.github.io.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/everadTeam.github.io.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+=======
+
+>>>>>>> 631b69f2dd8379e8da2fad7d24f1f4ca6063171e
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -51,11 +55,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+<<<<<<< HEAD
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
               <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+=======
+
+>>>>>>> 631b69f2dd8379e8da2fad7d24f1f4ca6063171e
             </state>
           </provider>
         </entry>
@@ -104,7 +112,11 @@
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+<<<<<<< HEAD
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
+=======
+
+>>>>>>> 631b69f2dd8379e8da2fad7d24f1f4ca6063171e
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -154,6 +166,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1536243209457</updated>
+<<<<<<< HEAD
       <workItem from="1536243210898" duration="1311000" />
       <workItem from="1536332022657" duration="707000" />
       <workItem from="1536574474364" duration="468000" />
@@ -165,10 +178,14 @@
       <option name="project" value="LOCAL" />
       <updated>1536332124322</updated>
     </task>
+=======
+
+>>>>>>> 631b69f2dd8379e8da2fad7d24f1f4ca6063171e
     <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="2486000" />
   </component>
   <component name="ToolWindowManager">
@@ -192,6 +209,9 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" />
+=======
+
+>>>>>>> 631b69f2dd8379e8da2fad7d24f1f4ca6063171e
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -201,14 +221,22 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+<<<<<<< HEAD
     <MESSAGE value="Default Changelist" />
     <option name="LAST_COMMIT_MESSAGE" value="Default Changelist" />
+=======
+
+>>>>>>> 631b69f2dd8379e8da2fad7d24f1f4ca6063171e
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="210">
           <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+=======
+
+>>>>>>> 631b69f2dd8379e8da2fad7d24f1f4ca6063171e
         </state>
       </provider>
     </entry>
