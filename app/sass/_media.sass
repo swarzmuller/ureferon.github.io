@@ -6,12 +6,24 @@
 @media only screen and (max-width : 1200px)
     /**/
 
+.problem__item
+  max-width: 240px
+.problem__name
+	font-size: 17px
+.problem__descr
+	font-size: 17px
 /* Large Devices, Wide Screens */
-@media only screen and (max-width : 1024px)
+@media only screen and (max-width : 1023px)
   .section
     padding: $padding-lg
   .title
     font-size: $title-lg
+  .problem__list
+  	flex-wrap: wrap
+  	justify-content: center
+  .problem__item
+  	margin: 20px 50px
+  
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px)
@@ -19,14 +31,16 @@
 
 
 /* Small Devices, Tablets */
-@media only screen and (max-width : 768px)
+@media only screen and (max-width : 767px)
   .section
     padding: $padding-md
   .title
     font-size: $title-md
+  .problem__item
+  	margin: 20px
 
 /* Extra Small Devices, Phones */
-@media only screen and (max-width : 480px)
+@media only screen and (max-width : 479px)
   .section
     padding: $padding-sm
   .title
