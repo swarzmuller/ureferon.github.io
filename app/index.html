@@ -609,6 +609,51 @@
 </section>
 <section class="section footer"></section>
 
+<div class="ever-popup-build">
+    <div id="cloneThis">
+        <div class="ever__block">
+            <div class="ever__block__pack-block">
+                <img src="img/prod_main.png" alt="">
+                <div class="discount">
+                    50 <span><img src="img/procent1.png" alt=""></span>
+                </div>
+            </div>
+            <div class="form">
+                <div class="form__price">
+                    <div class="form__price__old">
+                        <div class="form__price__old__text">
+                            Старая цена
+                        </div>
+                        <div class="form__price__old__value">
+                            <span class="x_price_previous">999</span>
+                            <span class="x_currency currency">руб.</span>
+                        </div>
+                    </div>
+                    <div class="form__price__new">
+                        <div class="form__price__new__text">
+                            Старая цена
+                        </div>
+                        <div class="form__price__new__value">
+                            <span class="x_price_previous">999</span>
+                            <span class="x_currency currency">руб.</span>
+                        </div>
+                    </div>
+                </div>
+                <p class="form__lastpack">Осталось <span class="orange__bold lastpack">15</span> упаковок
+                    <span class="stroke">со скидкой</span>
+                </p>
+                <form action="/submit" method="post" class="x_order_form">
+                    <input type="text" name="name" placeholder="Имя">
+                    <input type="text" name="phone" placeholder="Телефон">
+                    <button type="submit" class="order_btn">
+                        Заказать
+                        <span>со скидкой</span>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
 <script src="js/jquery.min.js"></script>
 <script src="js/common.js"></script>
 <script src="js/everad.js"></script>
