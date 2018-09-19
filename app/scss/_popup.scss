@@ -1,0 +1,56 @@
+.ever__block{
+  display: flex;
+  justify-content: space-between;
+  border-radius: 5px;
+  background: #fff;
+  padding: 1px;
+  .form{
+    box-shadow: none;
+    width: 306px;
+    padding: 0 26px;
+  }
+  &__pack-block{
+    background: #f3f9f8 url(../img/grass.png) no-repeat 317px 97px;
+    position: relative;
+    z-index: 5;
+    align-self: center;
+    width: 500px;
+    left: 0;
+    padding: 24px;
+    height: 438px;
+    display: flex;
+    align-items: center;
+      .discount{
+        background: url(../img/discount1.png) no-repeat;
+        width: 72px;
+        height: 72px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #000000;
+        font-size: 26px;
+        font-weight: 900;
+        position: absolute;
+        top: 30px;
+        right: 128px;
+        padding: 0 0 0 9px;
+        span{
+          margin: 5px 0 3px -8px;
+        }
+      }
+  }
+}
+.ever-popup__close{
+  top: 42px!important;
+  right: 9px!important;
+}
+.ever-popup__close:after, .ever-popup__close:before {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 10px;
+  width: 21px!important;
+  height: 2px!important;
+  background: #d8e1e5!important;
+  transition: all 1s;
+}

@@ -1,0 +1,142 @@
+.audio-reviews-item {
+  margin-bottom: 10px;
+  position: relative;
+  max-width: 377px;
+  border-radius: 60px;
+  border: 1px solid #b5d4e5;
+  height: 65px;
+}
+
+.audiojs .play-pause {
+  position: absolute;
+  top: 9px;
+  left: 23px;
+}
+
+.audiojs .scrubber {
+  position: absolute;
+  top: 13px;
+  left: 70px;
+  max-width: 272px;
+}
+
+.audio-reviews-title {
+  position: absolute;
+  bottom: 5px;
+  left: 30px;
+  color: #666666;
+  font-size: 15px;
+}
+
+.audiojs .time {
+  border: none;
+}
+
+.audiojs .loaded {
+  background: #bfdef3;
+}
+
+.audiojs .progress {
+  background: #4faaca;
+}
+
+.audio-reviews-items {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  margin-top: 40px;
+}
+
+.audio-descrip {
+  margin-bottom: 30px;
+}
+
+.audiojs {
+  max-width: 377px;
+  height: 100px;
+  background-color: transparent;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  background-repeat: no-repeat;
+  background-position: center top
+}
+
+.audiojs * {
+  border-width: 0
+}
+
+.audiojs .play-pause {
+  border: none!important
+}
+
+.loaded,
+.play-pause,
+.progress,
+.scrubber {
+  background-color: transparent
+}
+
+.scrubber {
+  position: absolute;
+  bottom: -33px!important;
+  width: 100%;
+  background-color: #d4eef5!important;
+  height: 2px!important;
+  margin: 10px 0 0!important
+}
+
+.audiojs .scrubber {
+  border: none!important
+}
+
+.loaded,
+.progress {
+  width: 100%;
+  height: 2px!important;
+  background-color: #474747
+}
+
+.play-pause {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 20px;
+  left: 5px
+}
+
+.play-pause .loading,
+.play-pause .pause,
+.play-pause .play {
+  background-position: 0 0;
+  background-image: url(../images/play.png);
+  background-repeat: no-repeat
+}
+
+.play-pause .pause {
+  background-image: url(../images/pause.png)
+}
+
+.audio-wrap .time {
+  display: block;
+  float: none;
+  position: absolute;
+  top: 25px;
+  right: 33px;
+  padding: 0;
+  font-size: 13px;
+  color: #666666;
+}
+
+.audiojs .time em {
+  color: #666666;
+}
+
+.audio-reviews-item {
+  margin: 0 12px;
+}
+
+.audiojs .scrubber {
+  background: #bfdef3 !important;
+}
