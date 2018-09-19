@@ -1,0 +1,18 @@
+.youtube{background-color:#000;max-width:100%;overflow:hidden;position:relative;cursor:hand;cursor:pointer}.youtube .thumb{bottom:0;display:block;left:0;margin:auto;max-width:100%;position:absolute;right:0;top:0;width:100%;height:auto}.youtube .play{filter:alpha(opacity=80);opacity:.8;height:77px;left:50%;margin-left:-38px;margin-top:-38px;position:absolute;top:50%;width:77px;}
+
+.video__name{
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.youtube .play{
+  background: url("../images/playy.png") no-repeat;
+  transition: 0.5s;
+}
+.youtube .play:hover{
+  background: url("../images/playy1.png") no-repeat;
+}
+.video-wrap iframe{
+  border: none;
+}
+

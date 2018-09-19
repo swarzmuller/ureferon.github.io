@@ -1,4 +1,4 @@
-var prepros = 'sass'; // sass or scss
+var prepros = 'scss'; // sass or scss
 
 var gulp = require('gulp'),
     sass = require('gulp-sass'),
@@ -12,10 +12,20 @@ var gulp = require('gulp'),
     tinypng = require('gulp-tinypng-compress'),
     cache = require('gulp-cache'),
     imagemin = require('gulp-imagemin'),
-    sourcemaps = require('gulp-sourcemaps');
+    sourcemaps = require('gulp-sourcemaps'),
+    notify  = require('gulp-notify'),
+    plumber = require('gulp-plumber');
 
 gulp.task('sass',function(){
-  return gulp.src('app/'+prepros+'/**/*.'+prepros+'')
+	return gulp.src('app/'+prepros+'/**/*.'+prepros+'') 
+			.pipe(plumber({
+				errorHandler: notify.onError(function(err){
+					return {
+						title: 'Styles',
+						message: err.message
+					}
+				})
+		}))
     .pipe(sourcemaps.init())
     .pipe(sass({outputStyle: 'expanded'}))
     .pipe(autoprefixer({
@@ -41,7 +51,7 @@ gulp.task('browser-sync', function(){
     server: {
       baseDir: 'app'
     },
-    notify: false
+    notify: true
   });
 });
 gulp.task('jquery', function(){
