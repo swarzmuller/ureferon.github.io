@@ -1,0 +1,176 @@
+.relieve{
+  padding: 82px 0px;
+  &__body{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 54px 0 0 0;
+    &__list{
+      display: flex;
+      flex-direction: column;
+      max-width: 490px;
+      &__item{
+        margin: 0 0 28px 0;
+        .image{
+          display: inline-block;
+          vertical-align: top;
+          position: relative;
+          span{
+            position: absolute;
+            font-size: 19px;
+            color: #ffb400;
+            font-weight: 900;
+            top: 10px;
+            left: 6px;
+          }
+        }
+        .text{
+          max-width: 299px;
+          display: inline-block;
+          vertical-align: top;
+          margin: 10px 0 0 11px;
+            h3{
+              font-weight: 900;
+              font-size: 19px;
+              margin: 0 0 9px 0;
+            }
+            p{
+              font-size: 17px;
+              color: #444444;
+            }
+        }
+      }
+    }
+
+    &__form{
+      position: relative;
+      max-width: 765px;
+      display: flex;
+      &:after{
+        position: absolute;
+        content: "";
+        background: url(../img/arrow.svg);
+        width: 49px;
+        height: 230px;
+        right: -70px;
+        top: 101px;
+      }
+      .relieve__body__pack{
+        background: url(../img/grass.png) no-repeat 311px 109px;
+        position: relative;
+        z-index: 5;
+        align-self: center;
+        width: 500px;
+        left: 0;
+        padding: 24px;
+        display: flex;
+        align-items: center;
+        .discount{
+          background: url(../img/discount1.png) no-repeat;
+          width: 84px;
+          height: 84px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          color: #000000;
+          font-size: 32px;
+          font-weight: 900;
+          position: absolute;
+          background-size: cover;
+          top: -7px;
+          right: 118px;
+          padding: 0 0 0 9px;
+          span{
+            left: -6px;
+            position: relative;
+          }
+        }
+
+      }
+    }
+  }
+}
+
+
+/*==========  Desktop First  ========== */
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) {
+  .relieve__body__form:after{
+    display: none;
+  }
+  .relieve__body{
+    justify-content: center;
+  }
+  .relieve__body__form .relieve__body__pack{
+    padding: 0 10px;
+    width: 357px;
+    background: url(../img/grass.png) no-repeat 173px 37px;
+  }
+  .relieve__body__form .relieve__body__pack .discount{
+    top: -29px;
+  }
+  .relieve__body__list__item .text {
+    max-width: 270px;
+  }
+}
+
+@media only screen and (max-width: 1023px) {
+  .relieve__body{
+      flex-direction: column;
+  }
+  .relieve__body__list{
+    flex-direction: row;
+    max-width: 100%;
+  }
+  .relieve__body__list__item .text {
+    max-width: 75%;
+    margin: 10px 0 0 4px;
+  }
+  .relieve__body__list__item .text p {
+    font-size: 16px;
+  }
+}
+
+
+@media only screen and (max-width: 767px) {
+  .relieve__body{
+    margin: 20px 0 0 0;
+  }
+  .relieve__body__list{
+    flex-direction: column;
+    max-width: 479px;
+  }
+  .relieve__body__form{
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+  }
+  .relieve__body__form .relieve__body__pack{
+    margin: 15px 0;
+  }
+  .relieve__body__form .relieve__body__pack .discount{
+    right: 64px;
+  }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 479px) {
+  .relieve__body__list{
+    max-width: 100%
+  }
+  .relieve__body__list__item .text{
+    max-width: 81%;
+  }
+  .relieve__body__form .relieve__body__pack {
+    padding: 0 0px;
+    width: 282px;
+    background: url(../img/grass.png) no-repeat 128px 16px;
+    background-size: 158px;
+  }
+  .relieve__body__form .relieve__body__pack .discount{
+    width: 70px;
+    height: 70px;
+    font-size: 25px;
+  }
+}
