@@ -1,5 +1,6 @@
 @import "fonts"
 @import "vars"
+@import "../libs/slick-carousel/slick/slick.css" 
 
 *
 	-webkit-box-sizing: border-box
@@ -618,6 +619,205 @@ img
 	cursor: pointer
 
 /**********************end second******************/
+//======================================================problems==========================================// 
+.problems 
+	background: url(../img/problems-bg.png) no-repeat center top 
+	padding: 90px 0
+.light-red 
+	color: #e9766d
+.problems-inner 
+	margin-top: 45px 
+.calendar-container 
+	border-radius: 5px
+	background-color: #ffffff 
+	padding: 5px 
+.calendar-table 
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.07)
+	border-radius: 5px
+	background-color: #ffffff 
+	display: flex 
+	.bottom 
+		height: 130px 
+	.top 
+		height: 68px 
+		border-bottom: 1px solid #e5e5e5  
+		text-align: center 
+		line-height: 68px
+	.center 
+		height: 183px 
+		border-bottom: 1px solid #e5e5e5  
+		display: flex 
+		flex-direction: column 
+		justify-content: center 
+		align-items: center 
+		img 
+			margin-bottom: 20px
+.left-part 
+	color: #000000
+	font-size: 19px
+	font-weight: 500
+	line-height: 20px 
+	width: 22%  
+	
+	.top 
+		display: flex 
+		justify-content: flex-start 
+		align-items: center 
+		padding-left: 25px 
+	.center 
+		padding-left: 25px 
+	.bottom 
+		padding-left: 25px 
+		padding-top: 35px
+.sortir 
+	position: relative 
+	.times 
+		position: absolute
+		width: 26px
+		height: 26px
+		background-color: #e9766d 
+		color: #fff 
+		border-radius: 50% 
+		text-align: center 
+		line-height: 26px 
+		font-size: 14px 
+		top: -10px
+		right: 0
+	
+.right-part 
+	font-size: 18px 
+	line-height: 20px 
+	display: flex 
+	width: 78%
+	.week 
+		width: 25% 
+		border-left: 1px solid #e5e5e5 
+		border-right: 1px solid #e5e5e5 
+		cursor: pointer
+		.bottom 
+			color: #ffb400
+			font-size: 18px
+			font-weight: 400
+			line-height: 20px 
+			display: flex 
+			align-items: center 
+			justify-content: center 
+			text-align: center 
+			position: relative 
+			&:before 
+				content: ""
+				width: 23px
+				height: 23px
+				position: absolute
+				background: url(../img/arrow_problem.png) no-repeat center, #ffb400 
+				border-radius: 50% 
+				top: -12.5px 
+				box-shadow: 0 0 0 5px #fdead5
 
+		&:before 
+			content: ""
+			position: absolute 
+			height: 20px 
+			width: 100% 
+			top: -20px 
+			background-color: #fff 
+			border-top-left-radius: 7px 
+			border-top-right-radius: 7px 
+			display: none 
+		&:after 
+			content: ""
+			position: absolute 
+			height: 20px 
+			width: 100% 
+			bottom: -20px 
+			background-color: #fff 
+			border-bottom-left-radius: 7px 
+			border-bottom-right-radius: 7px 
+			display: none 
+		&:hover 
+			border-left: 0px 
+			border-right: 0px 
+			box-shadow: 0 0 20px rgba(0, 0, 0, 0.07) 
+			position: relative 
+			transform: scaleX(1.05) 
+			z-index: 2
+			background-color: #fff
+			&:before, &:after 
+				display: block
+
+		.center 
+			img 
+				width: 63px
+				height: 72px
+		&:nth-child(2) 
+			margin-left: -1px 
+			.center 
+				img 
+					width: 72px
+					height: 82px 
+			.times 
+				width: 30px
+				height: 30px 
+				line-height: 30px 
+				font-size: 15px 
+			.bottom 
+				color: #ff9000 
+				&:before 
+					background: url(../img/arrow_problem.png) no-repeat center, #ff9000  
+					box-shadow: 0 0 0 5px #ffddb2
+		&:nth-child(3) 
+			margin-left: -1px 
+			.center 
+				img 
+					width: 80px
+					height: 91px 
+			.times 
+				width: 34px
+				height: 34px 
+				line-height: 34px 
+				font-size: 16px 
+			.bottom 
+				color: #fc6500 
+				&:before 
+					background: url(../img/arrow_problem.png) no-repeat center, #fc6500 
+					box-shadow: 0 0 0 5px #fed0b2
+		&:nth-child(4) 
+			margin-left: -1px 
+			border-right: 0
+			.center 
+				img 
+					width: 85px
+					height: 96px 
+			.times 
+				width: 38px
+				height: 38px 
+				line-height: 38px 
+				font-size: 18px 
+			.bottom 
+				color: #dc4e42 
+				&:before 
+					background: url(../img/arrow_problem.png) no-repeat center, #dc4e42 
+					box-shadow: 0 0 0 5px #f4cac6
+	.top 
+		color: #000000
+
+		font-weight: 500 
+
+
+	.center 
+		color: #444444
+
+		font-weight: 400 
+.problems-danger 
+	margin-top: 35px 
+	color: #dc4e42
+	font-size: 23px
+	font-weight: 700
+	line-height: 28px 
+	text-align: center
+	.black 
+		color: black 
+.first 
+	display: none
 
 @import "media" // Всегда в конце

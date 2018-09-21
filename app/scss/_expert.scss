@@ -1,0 +1,130 @@
+.blue {
+	color: #42cac4;
+} 
+.expert {
+	padding-top: 80px; 
+	padding-bottom: 0!important;
+	background: url(../img/expert-bg.png) no-repeat center top; 
+	background-size: cover;
+} 
+.expert-inner {
+	display: flex; 
+	align-items: flex-end; 
+	justify-content: space-around 
+	
+} 
+.expert-right {
+	// max-width: 570px; 
+	width: 48.547008547008547008547008547009%;
+	align-self: flex-start; 
+	padding-bottom: 80px;
+}
+.expert-text {
+	color: #444444; 
+	font-size: 18px;
+	font-weight: 400; 
+	padding-top: 45px; 
+	padding-bottom: 50px; 
+	position: relative; 
+	&:before {
+		content: ''; 
+		position: absolute; 
+		width: 25px; 
+		height: 25px; 
+		top: 0; 
+		left: 0;
+		background: url(../img/scope.png) no-repeat center
+	} 
+	&:after {
+		content: ''; 
+		position: absolute; 
+		width: 30px;
+height: 4px;
+background-color: #42cac4; 
+bottom: 24px; 
+left: 0
+	
+	}
+} 
+.expert-text p {
+	margin: 0 0 35px; 
+	&:last-child {
+		margin-bottom: 0;
+	}
+} 
+.expert-position {
+	color: #555555;
+	font-size: 17px;
+	font-style: italic;
+	line-height: 24px; 
+	margin-bottom: 20px;
+} 
+.expert-name {
+	color: #000000;
+
+font-size: 24px;
+font-weight: 700;
+} 
+.expert-left {
+	display: flex; 
+	justify-content: center; 
+	align-items: flex-end; 
+	width: 39.82905982905982905982905982906%; 
+	img {
+		max-width: 100%;
+	}
+} 
+@media only screen and (max-width : 1200px) {
+
+} 
+@media only screen and (max-width : 1023px) {
+	.expert-text p {
+		margin: 0 0  20px
+	} 
+	.expert-text {
+		font-size: 16px; 
+		line-height: 18px;
+	} 
+	.expert-right {
+		padding-bottom: 20px; 
+		// padding-top: 25px;
+	}  
+	.expert-text {
+		padding-top: 30px; 
+		padding-bottom: 25px; 
+		&:after {
+			bottom: 10px
+		}
+	} 
+	
+	.expert-position {
+		font-size: 15px; 
+		line-height: 17px; 
+		margin-bottom: 10px;
+	} 
+
+} 
+@media only screen and (max-width :767px) {
+.expert-inner {
+	flex-direction: column-reverse; 
+	align-items: center
+} 
+.expert-right {
+	align-self: center; 
+	
+} 
+.expert-right {
+	width: 100%
+} 
+.expert-left {
+	width: 100%; 
+	max-width: 300px;
+} 
+.expert-name {
+	font-size: 20px;
+}
+
+} 
+@media only screen and (max-width :479px) {
+
+}
