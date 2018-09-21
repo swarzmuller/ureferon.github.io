@@ -37,11 +37,12 @@
       color: #555555;
       max-width: 201px;
       font-size: 14px;
-      a {
+      .call{
         font-size: 16px;
         color: black;
         text-decoration: none;
         position: relative;
+        cursor: pointer;
         transition: 0.3s;
         &:hover {
           color: #feb429;
@@ -230,7 +231,7 @@
     }
     &__new {
       color: white;
-      background: url("../img/flag_price.svg") no-repeat;
+      background: url("../img/flag_price.png") no-repeat;
       padding: 15px 0 0;
       width: 102px;
       &__text {

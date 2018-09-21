@@ -1,0 +1,114 @@
+.route{
+  padding: 80px 0px;
+  .container{
+    position: relative;
+  }
+}
+.arc{
+  position: absolute;
+  display: inline-block;
+  top: 93px;
+  left: 206px;
+  transform: rotate(0deg);
+}
+.arc1{
+  position: absolute;
+  display: inline-block;
+  top: 109px;
+  right: 202px;
+  transform: rotate(24deg);
+}
+
+.route__block{
+  display: flex;
+  justify-content: space-around;
+  margin: 131px 0 0;
+  position: relative;
+  &__item{
+    display: flex;
+    flex-direction: column;
+    width: 237px;
+    align-items: center;
+    background: #fff;
+    &:nth-child(2){
+      margin: -52px 0 0;
+    }
+    &__image{
+      box-shadow: 0 0 0 27px #f3f8f7;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      span{
+        width: 30px;
+        height: 30px;
+        background-color: #42cac4;
+        box-shadow: 0 0 0 6px rgba(66, 202, 196, 0.51);
+        border-radius: 50%;
+        position: absolute;
+        color: #fff;
+        font-size: 18px;
+        display: flex;
+        font-weight: 900;
+        align-items: center;
+        justify-content: center;
+        left: -21px;
+        top: -12px;
+        z-index: 5;
+      }
+    }
+    &__text{
+      text-align: center;
+      color: #444444;
+      font-size: 18px;
+      h3{
+        color: #000000;
+        font-size: 20px;
+        font-weight: 900;
+        margin: 0 0 11px;
+        &:before{
+          content: "";
+          width: 40px;
+          height: 4px;
+          display: block;
+          left: 0;
+          bottom: 0;
+          background: #ffb400;
+          margin: 44px auto 16px;
+        }
+      }
+    }
+  }
+}
+
+/*==========  Desktop First  ========== */
+
+@media only screen and (max-width: 1200px) {
+  .arc, .arc1{
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1023px) {
+ .route__block{
+    margin: 103px 0 0;
+  }
+
+}
+
+@media only screen and (max-width: 767px) {
+  .route__block{
+    flex-wrap: wrap;
+    margin: 53px 0 0;
+  }
+  .route__block__item,
+  .route__block__item:nth-child(2){
+    margin: 20px 0 40px;
+  }
+}
+
+@media only screen and (max-width: 479px) {
+
+}
+
