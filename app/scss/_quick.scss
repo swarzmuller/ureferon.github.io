@@ -95,6 +95,19 @@
   .quick__block__circle{
     display: none;
   }
+  .men-women{
+    display: none;
+  }
+  .quick__block{
+    justify-content: center;
+  }
+  .quick__block__text .title,
+  .quick__block__text{
+    text-align: center;
+  }
+  .quick__block__text:before{
+    margin: 20px auto;
+  }
 
 }
 
@@ -103,5 +116,8 @@
 }
 
 @media only screen and (max-width: 479px) {
-
+  .quick__block__text .order_btn {
+    width: 290px;
+    font-size: 24px;
+  }
 }
