@@ -2,23 +2,16 @@
 .first {
   background: url(../img/bgn.png);
   background-size: cover;
-  padding: 30px 0 81px;
   position: relative;
   .container {
     z-index: 2;
     position: relative;
+    background: url(../img/header_man.png) no-repeat center 70px;
+    padding: 30px 10px 78px;
   }
 }
 
-.header_man {
-  background: url(../img/header_man.png) no-repeat center;
-  width: 100%;
-  height: 661px;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  z-index: 0;
-}
+
 
 .first__header {
   display: flex;
@@ -148,12 +141,12 @@
       }
     }
     &__pack {
-      background: url("../img/grass.png") no-repeat 296px 97px;
+      background: url("../img/grass.png") no-repeat 293px 92px;
       position: relative;
       z-index: 5;
       align-self: flex-end;
-      bottom: -125px;
-      left: 76px;
+      bottom: -122px;
+      left: 70px;
       width: 500px;
       .discount {
         background: url(../img/discount.png) no-repeat;
@@ -301,11 +294,12 @@
       background-color: #f6f9f8;
       margin: 14px 0 0 0;
       position: relative;
-      box-shadow: inset 0px 0px 10px #e4e4e4;
+      box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.04);;
       width: 227px;
       transition: 0.3s;
+      &:hover,
       &:focus{
-        box-shadow: 0px 3px 9px 0px #eaeaea, inset 0px 0px 10px #e4e4e4;
+        box-shadow: inset 0px 0px 10px #e4e4e4;
         transition: 0.3s;
       }
     }
@@ -364,10 +358,15 @@
   .first__body__form-pack__form:after{
     display: none;
   }
+
   .header_man {
     height: 659px;
-    bottom: -76px;
+
     background-size: 399px;
+  }
+  .first .container{
+    background-size: 399px;
+    background-position: bottom;
   }
   .first__body__form-pack__pack {
     background: url(../img/grass.png) no-repeat 170px 36px;
@@ -384,11 +383,18 @@
   .first__header__block{
     width: 42%;
   }
+  .first__body__top-marg{
+    margin: 15px 0 0;
+  }
+
 }
 
 @media only screen and (max-width: 1023px) {
-  .header_man{
-    display: none;
+  .first .container{
+    padding: 0 10px;
+  }
+  .first .container{
+    background: none;
   }
   .first__body__form-pack__pack{
     left: -19px;
@@ -400,6 +406,9 @@
   }
   .first__body__list-block li .list-text {
     width: 250px;
+  }
+  .first__body__list{
+    max-width: 360px;
   }
 }
 
@@ -471,6 +480,19 @@
   .first__header__block {
     width: 49%;
     justify-content: space-around;
+  }
+  .first__header__block-item,
+  .first__header__block{
+    display: none;
+  }
+  .first__header__block:nth-child(2){
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+  .first__header__block .order-call{
+    display: block;
   }
 }
 

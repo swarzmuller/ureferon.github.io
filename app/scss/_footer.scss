@@ -7,6 +7,7 @@
     font-size: 16px;
     line-height: 1.5;
     align-items: center;
+    height: 75px;
     &__left{
       display: flex;
       align-items: center;
@@ -33,7 +34,11 @@
     }
   }
 }
-
+@media only screen and (max-width: 1200px) {
+  .footer {
+    padding: 20px 0px;
+  }
+}
 @media only screen and (max-width: 992px) {
   .footer__block{
     flex-direction: column;

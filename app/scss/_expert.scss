@@ -23,6 +23,7 @@
 	color: #444444; 
 	font-size: 18px;
 	font-weight: 400; 
+	line-height: 26px;
 	padding-top: 45px; 
 	padding-bottom: 50px; 
 	position: relative; 
@@ -47,7 +48,7 @@ left: 0
 	}
 } 
 .expert-text p {
-	margin: 0 0 35px; 
+	margin: 0 0 25px; 
 	&:last-child {
 		margin-bottom: 0;
 	}
@@ -75,7 +76,9 @@ font-weight: 700;
 	}
 } 
 @media only screen and (max-width : 1200px) {
-
+	.expert-text {
+		line-height: 22px;
+	}
 } 
 @media only screen and (max-width : 1023px) {
 	.expert-text p {

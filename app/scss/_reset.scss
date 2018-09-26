@@ -5,7 +5,9 @@
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-
+input::-ms-clear {
+  display: none;
+}
 //! normalize.sass v3.0.0 | MIT License | git.io/normalize
 
 html {

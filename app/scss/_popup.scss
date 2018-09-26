@@ -22,9 +22,10 @@
     align-items: center;
       .discount{
         background: url(../img/discount1.png) no-repeat;
-        width: 72px;
-        height: 72px;
+        width: 80px;
+        height: 80px;
         display: flex;
+        background-size: cover;
         align-items: center;
         justify-content: center;
         color: #000000;
@@ -43,6 +44,15 @@
 .ever-popup__close{
   top: 42px!important;
   right: 9px!important;
+  &:hover{
+    &:after{
+      background: #fe9133!important;
+    }
+    &:before{
+      background: #fe9133!important;
+    }
+  }
+
 }
 .ever-popup__close:after, .ever-popup__close:before {
   content: "";
@@ -53,10 +63,14 @@
   height: 2px!important;
   background: #d8e1e5!important;
   transition: all 1s;
+
 }
 
 @media only screen and (max-width: 1000px) {
   .ever-popup__close{
     right: 0!important;
+  }
+  .ever-popup__close {
+    top: 8px !important;
   }
 }

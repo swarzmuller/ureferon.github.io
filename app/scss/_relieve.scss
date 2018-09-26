@@ -56,13 +56,14 @@
         top: 101px;
       }
       .relieve__body__pack{
-        background: url(../img/grass.png) no-repeat 311px 109px;
+        background: url(../img/grass.png) no-repeat 290px 95px;
         position: relative;
         z-index: 5;
         align-self: center;
         width: 500px;
-        left: 0;
-        padding: 24px;
+        left: -7px;
+        padding: 0;
+        top: 5px;
         display: flex;
         align-items: center;
         .discount{
@@ -77,8 +78,8 @@
           font-weight: 900;
           position: absolute;
           background-size: cover;
-          top: -7px;
-          right: 118px;
+          top: -37px;
+          right: 128px;
           padding: 0 0 0 9px;
           span{
             left: -6px;
